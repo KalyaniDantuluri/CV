@@ -51,6 +51,14 @@ h3 {
     color: #11999E;
 }
 
+.purple {
+    color: #C70A80;
+}
+
+.green {
+    color: green;
+}
+
 .top-cloud {
     position: absolute;
     right: 300px;
@@ -364,7 +372,7 @@ footer {
     color: grey;
 }
 
-@media only screen and (max-width:980px) {
+@media only screen and (max-width:850px) {
     .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.8fr;
@@ -418,16 +426,14 @@ footer {
     }
     .portfolio {
         position: relative;
-        left: 25px ;
+        left: 1rem;
         text-decoration: none;
         color: grey;
-        font-size:1rem;
     }
     .con {
         position: relative;
-        left: 30px;
+        right: 1rem;
         text-decoration: none;
         color: grey;
-         font-size:1rem;
     }
 }

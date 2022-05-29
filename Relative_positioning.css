@@ -1,0 +1,40 @@
+/*********relative positioning*********/
+
+.top {
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    position: relative;
+    left: 200px;
+}
+
+.middle {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    position: relative;
+    bottom: 100px;
+}
+
+.bottom {
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    position: relative;
+    bottom: 200px;
+    left: 100px;
+}
+
+
+/*it doesn't affect the position of anything else on screen*/
+
+
+/* position property do nothing if you don't use coordinate property */
+
+
+/*********Absolute posistioning**********/
+
+
+/*positioning the element relative to its parent --> absolute p.
+The flow of the document changes when u are using Absolute p.
+and is no longer considered as part of natural flow of the document*/

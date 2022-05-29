@@ -1,0 +1,41 @@
+p {
+    background-color: red;
+    display: inline-block;
+    width: 1000px;
+}
+
+.second-p {
+    /* display: none; */
+    visibility: hidden;
+}
+
+span {
+    background-color: yellow;
+    display: inline-block;
+    width: 100px;
+}
+
+
+/* we can change a block element to inline and vice versa 
+using display */
+
+
+/* We can't change the width of the inline elements */
+
+
+/*If you want to change the width and occupy the same line
+display:Inline-block is the best option*/
+
+
+/* image tag is more like inline-block */
+
+
+/*If you want to hide things on your web page-quizx,etc..
+It can be done in two ways
+1.display:none;      ---> Takes the element out of flow as if
+                          it's never existed                        
+2.visibility-hidden; --->It makes the element disappear but it
+                        keeps the original position and all
+                        other elements still flow around it
+                        as if it's still there
+*/

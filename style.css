@@ -336,6 +336,7 @@ main {
     grid-area: content6;
     border: 5px solid purple;
     border-radius: 40px;
+    margin: auto;
     transition: all 0.4s ease-in-out;
 }
 
@@ -350,14 +351,6 @@ footer {
     padding-top: var(--main-padding);
 }
 
-@media only screen and (max-width:950px) {
-    .grid {
-        grid-template-columns: 1fr;
-        grid-template-rows: 0.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.8fr;
-        grid-template-areas: "nav" "main" "content1" "content3" "content2" "content4" "content5" "content6" "footer";
-    }
-}
-
 .portfolio {
     position: static;
     text-decoration: none;
@@ -369,4 +362,70 @@ footer {
     right: 250px;
     text-decoration: none;
     color: grey;
+}
+
+@media only screen and (max-width:750px) {
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.8fr;
+        grid-template-areas: "nav" "main" "content1" "content3" "content2" "content4" "content5" "content6" "footer";
+    }
+    .bottom-container {
+        grid-template-rows: 5vh auto auto auto 100px;
+        font-size: 3.5vw;
+        width: 90vw;
+    }
+    .bottom-container {
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "instagram gmail" "linkedin github";
+    }
+    .instagram {
+        grid-area: instagram;
+        position: relative;
+        left: 5px;
+        transition: 0.2s all ease-in-out;
+    }
+    .instagram:hover {
+        transform: scale(1.20);
+    }
+    .gmail {
+        grid-area: gmail;
+        position: relative;
+        left: 10px;
+        transition: 0.2s all ease-in-out;
+    }
+    .gmail:hover {
+        transform: scale(1.20);
+    }
+    .linkedin {
+        grid-area: linkedin;
+        position: relative;
+        left: 15px;
+        transition: 0.2s all ease-in-out;
+    }
+    .linkedin:hover {
+        transform: scale(1.20);
+    }
+    .github {
+        grid-area: github;
+        position: relative;
+        left: 20px;
+        transition: 0.2s all ease-in-out;
+    }
+    .github:hover {
+        transform: scale(1.20);
+    }
+    .portfolio {
+        position: relative;
+        left: 25px;
+        text-decoration: none;
+        color: grey;
+    }
+    .con {
+        position: relative;
+        right: 10px;
+        text-decoration: none;
+        color: grey;
+    }
 }

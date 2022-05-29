@@ -52,7 +52,7 @@ h3 {
 }
 
 .purple {
-    color: purple;
+    color: #C70A80;
 }
 
 .green {
@@ -247,7 +247,7 @@ a {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
-    transform: scale(1.80);
+    font-size: larger;
 }
 
 .contact-me {
@@ -365,6 +365,10 @@ footer {
     color: grey;
 }
 
+.portfolio:hover {
+    font-size: larger;
+}
+
 .con {
     position: absolute;
     right: 250px;
@@ -372,7 +376,11 @@ footer {
     color: grey;
 }
 
-@media only screen and (max-width:980px) {
+.con:hover {
+    font-size: larger;
+}
+
+@media only screen and (max-width:850px) {
     .grid {
         grid-template-columns: 1fr;
         grid-template-rows: 1.4fr 0.4fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 1.2fr 0.8fr;

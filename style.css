@@ -418,14 +418,14 @@ footer {
     }
     .portfolio {
         position: relative;
-        left: 1rem;
+        left: 25px ;
         text-decoration: none;
         color: grey;
         font-size:1rem;
     }
     .con {
         position: relative;
-        right: 1rem;
+        left: 30px;
         text-decoration: none;
         color: grey;
          font-size:1rem;

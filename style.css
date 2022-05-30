@@ -63,12 +63,22 @@ h3 {
     position: absolute;
     right: 300px;
     top: 40px;
+    transition: 0.4s all ease-in-out;
+}
+
+.top-cloud:hover {
+    transform: scale(1.50);
 }
 
 .bottom-cloud {
     position: absolute;
     left: 250px;
     bottom: 300px;
+    transition: 0.4s all ease-in-out;
+}
+
+.bottom-cloud:hover {
+    transform: scale(1.50);
 }
 
 .top-container {
